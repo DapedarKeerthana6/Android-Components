@@ -23,6 +23,7 @@ public class ServiceActivity extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Toast
                 startService(new Intent(ServiceActivity.this,MyService.class));
             }
         });
