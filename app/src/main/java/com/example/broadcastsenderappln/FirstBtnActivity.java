@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+//Naming conventions
 public class FirstBtnActivity extends AppCompatActivity {
 
     @Override
